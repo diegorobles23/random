@@ -1,6 +1,6 @@
 #button-container {
     text-align: center;
-    font-family: 'Pangolin', cursive;
+    
 }
 
 h1 {
@@ -10,4 +10,8 @@ h1 {
 
 body {
     background-image: url("https://ididnthavemyglasseson.files.wordpress.com/2015/11/flikr-com.jpg");
+}
+
+h1 {
+    font-family: 'Pangolin', cursive;
 }
