@@ -7,7 +7,7 @@ var namespace = "http://www.w3.org/2000/svg"
 function createFirstScene() {
     makeLine(35, 20, 150, 20, "magenta", 2, 0.3)
     makeLine(70, 20, 499, 20, "red", 2, 0.3)
-
+    makeCircle(100, 50, 25, "cyan", 0.25) 
 }
 
 
@@ -20,6 +20,7 @@ function createSecondScene() {
     makeRect(17, 17, 17, 17, "magenta", 0.2)
     makeRect(19, 19, 19, 19, "magenta", 0.2)
     makeRect(21, 21, 21, 21, "magenta", 0.2)
+    makePolygon("150,0 100,50 200,50", "purple", 0.15)
 
 }
 
@@ -31,6 +32,7 @@ function createSecondScene() {
 function createThirdScene() {
     makeEllipse(125, 75, 50, 25, "blue", 0.15)
     makeEllipse(125, 95, 65, 25, "blue", 0.15)
+    makeText("Hello", 100, 50, 10, "sans-serif", "red", 0.4)
 }
 
 
