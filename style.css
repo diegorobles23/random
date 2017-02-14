@@ -1,7 +1,13 @@
 #button-container {
     text-align: center;
+    font-family: 'Pangolin', cursive;
 }
 
 h1 {
     text-align: center;
+    color: aqua
+}
+
+body {
+    background-image: url("https://ididnthavemyglasseson.files.wordpress.com/2015/11/flikr-com.jpg");
 }
